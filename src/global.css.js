@@ -91,4 +91,19 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+
+  .hpyFyd {
+    display: none;
+  }
+
+  .habWLe {
+    width: 60%;
+  }
+
+  .vizBox{
+    position: absolute;
+    top: 25vh;
+    padding: 2rem 4rem;
+    right: 0;
+  }
 `;

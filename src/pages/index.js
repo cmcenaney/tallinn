@@ -24,6 +24,9 @@ const Index = ({ data }) => (
         />
       </Modal>
     </Box>
+    <div className="vizBox">
+      Bonfire
+    </div>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
     <IOExample />
