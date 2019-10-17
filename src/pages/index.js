@@ -7,6 +7,10 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
+import MyResponsiveBar from 'components/chart';
+import MyResponsiveBubble from 'components/bubble';
+
+
 
 const Index = ({ data }) => (
   <Layout>
@@ -24,8 +28,10 @@ const Index = ({ data }) => (
         />
       </Modal>
     </Box>
-    <div className="vizBox">
+    <div className="vizBox" style={{ height: '600px' }}>
       Bonfire
+      {/* <MyResponsiveBar /> */}
+      <MyResponsiveBubble />
     </div>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />

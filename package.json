@@ -19,6 +19,9 @@
     ]
   },
   "dependencies": {
+    "@nivo/bar": "^0.59.2",
+    "@nivo/circle-packing": "^0.59.1",
+    "@nivo/core": "^0.59.1",
     "@reach/dialog": "^0.2.0",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",

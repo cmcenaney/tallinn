@@ -105,5 +105,6 @@ export default createGlobalStyle`
     top: 25vh;
     padding: 2rem 4rem;
     right: 0;
+    width: 40%;
   }
 `;
