@@ -106,4 +106,21 @@ export default createGlobalStyle`
     right: 0;
     width: 40%;
   }
+
+  .subhed{
+    margin: 2rem 4rem;
+  }
+
+  figure {
+    border: 1px solid grey;
+    box-shadow: 5px 10px #888888;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+    a {
+      color: black;
+      padding-bottom: 2rem;
+    }
+  }
 `;

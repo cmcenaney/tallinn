@@ -29,6 +29,7 @@ const Index = ({ data }) => (
     <div className="vizBox" style={{ height: '100%' }}>
       <MyResponsiveBubble />
     </div>
+    <h2 className="subhed">Latest from the Hub</h2>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
   </Layout>
