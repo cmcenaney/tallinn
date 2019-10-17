@@ -102,7 +102,6 @@ export default createGlobalStyle`
 
   .vizBox{
     position: absolute;
-    top: 25vh;
     padding: 2rem 4rem;
     right: 0;
     width: 40%;

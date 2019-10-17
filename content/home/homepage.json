@@ -2,18 +2,18 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
+    "title": "Lorem Ipsum",
+    "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
     "image": "../images/gallery/react-context.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
+    "title": "Lorem Ipsum",
+    "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
+    "title": "Lorem Ipsum",
+    "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
 }
