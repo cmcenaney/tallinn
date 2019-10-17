@@ -108,19 +108,61 @@ export default createGlobalStyle`
   }
 
   .subhed{
-    margin: 2rem 4rem;
+    font-weight: 600;
+    font-size: 20px;
   }
 
   figure {
     border: 1px solid grey;
-    box-shadow: 5px 10px #888888;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    box-shadow: 5px 5px #888888;
+    padding: 2rem;
+    line-height: 2.3rem;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
 
     a {
       color: black;
       padding-bottom: 2rem;
     }
+  }
+
+  .container{
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 4rem;
+    padding: 0 4rem;
+    margin: 2rem 0;
+    width: 60%;
+    line-height: 2.3rem;
+  }
+
+  .events {
+    padding: 2rem;
+    border: 1px solid grey;
+    box-shadow: 5px 5px #888888;
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: 500;
+      border-bottom: 1px solid grey;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .date {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      padding: 0.5rem 0rem;
+    }
+
+    a {
+      color: black;
+      padding: 2rem 0rem;
+    }
+
   }
 `;

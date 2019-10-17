@@ -4,16 +4,16 @@
   "gallery": [{
     "title": "Lorem Ipsum",
     "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/react-context.png"
   },
   {
     "title": "Lorem Ipsum",
     "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/page-transitions.png"
   },
   {
     "title": "Lorem Ipsum",
     "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum vel arcu eu euismod.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/intersection-observer.png"
   }]
 }

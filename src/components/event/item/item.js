@@ -6,10 +6,8 @@ import { Link } from 'gatsby';
 
 const Item = ({ title, copy, image }) => (
   <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <figcaption>
       <Title>{title}</Title>
-
       <Copy>{copy}</Copy>
       <Link>More</Link>
     </figcaption>

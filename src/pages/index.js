@@ -9,6 +9,7 @@ import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 import MyResponsiveBar from 'components/chart';
 import MyResponsiveBubble from 'components/bubble';
+import { Link } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
@@ -29,9 +30,25 @@ const Index = ({ data }) => (
     <div className="vizBox" style={{ height: '100%' }}>
       <MyResponsiveBubble />
     </div>
-    <h2 className="subhed">Latest from the Hub</h2>
+    <div className="container">
+      <h2 className="subhed">Latest from the Hub</h2>
+    </div>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <div className="container">
+      <div className="events">
+        <h2 className="subhed">Upcoming Events</h2>
+        <div className="date">30th June 2019</div>
+        <h3>XR Hackney Weekly Meeting</h3>
+        <div className="date">30th June 2019</div>
+        <h3>XR Hackney Weekly Meeting</h3>
+        <div className="date">30th June 2019</div>
+        <h3>XR Hackney Weekly Meeting</h3>
+        <div className="date">30th June 2019</div>
+        <h3>XR Hackney Weekly Meeting</h3>
+        <Link>Find Out More</Link>
+      </div>
+    </div>
+    
   </Layout>
 );
 
