@@ -118,16 +118,21 @@ export default createGlobalStyle`
     padding: 2rem;
     line-height: 2.3rem;
 
-    img {
-      width: 20px;
-      height: 20px;
-    }
+    
 
     a {
       color: black;
       padding-bottom: 2rem;
     }
   }
+
+   .gatsby-image-wrapper {
+     width: auto;
+     height: auto;
+     max-width: 200px;
+     max-height: 87px;
+      
+    }
 
   .container{
     margin: 2rem 4rem;
